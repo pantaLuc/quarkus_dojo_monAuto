@@ -1,4 +1,4 @@
-package fr.dojo.monauto.quarkus;
+package fr.dojo.monauto;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;

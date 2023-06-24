@@ -1,4 +1,4 @@
-package fr.dojo.monauto.quarkus;
+package fr.dojo.monauto;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
