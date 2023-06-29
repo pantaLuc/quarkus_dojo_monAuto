@@ -1,0 +1,1 @@
+docker stop dojo-iard-sin-tranverse-monAuto
