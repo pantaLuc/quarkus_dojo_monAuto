@@ -3,7 +3,7 @@ package fr.dojo.monauto.data.entity;
 //TODO : Annotation to PERSIST in DATABASE
 public class Vehicule {
 
-    private int IDVehicule;
+    private long IDVehicule;
     private String Marque;
     private String type;
     private String energie;
