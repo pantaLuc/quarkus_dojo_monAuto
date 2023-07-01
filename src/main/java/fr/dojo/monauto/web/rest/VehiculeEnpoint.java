@@ -3,10 +3,9 @@ package fr.dojo.monauto.web.rest;
 
 import fr.dojo.monauto.data.entity.Vehicule;
 import fr.dojo.monauto.service.VehiculeService;
-import jakarta.ws.rs.Consumes;
-import jakarta.ws.rs.GET;
-import jakarta.ws.rs.Path;
-import jakarta.ws.rs.Produces;
+import jakarta.transaction.Transactional;
+import jakarta.ws.rs.*;
+import org.jboss.resteasy.reactive.ResponseStatus;
 
 import java.util.List;
 
@@ -24,5 +23,13 @@ public class VehiculeEnpoint {
     @GET
     public List<Vehicule> getAllVehicules(){
         return this.vehiculeService.getAll() ;
+    }
+
+    @POST
+    @Transactional
+    @ResponseStatus(201)
+    public Vehicule addVehicule(Vehicule vehicule){
+        this.vehiculeService.createVehicule(vehicule);
+        return vehicule ;
     }
 }
