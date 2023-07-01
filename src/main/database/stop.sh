@@ -1,1 +1,1 @@
-docker stop dojo-iard-sin-tranverse-monAuto
+docker stop dojo_iard_sin_tranverse_db
