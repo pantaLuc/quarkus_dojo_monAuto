@@ -1,5 +1,8 @@
 package fr.dojo.monauto.data.entity;
 
+//TODO : sachant qu' un client à un ou plusieur contrat d' assurance   et qu' un contrat d' assurance appartient à un seul client  quelle relation doit-elle avoir avec  Client ?
+
+
 public class Client {
 
     private long idClient;

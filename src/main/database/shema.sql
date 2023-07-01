@@ -1,4 +1,4 @@
-CREATE TABLE Client (
+CREATE TABLE clients (
     idClient BIGSERIAL PRIMARY KEY,
     nomClient VARCHAR,
     prenomClient VARCHAR,
@@ -6,7 +6,7 @@ CREATE TABLE Client (
     telephoneClient VARCHAR
 );
 
-CREATE TABLE Vehicule (
+CREATE TABLE vehicules (
     IDVehicule BIGSERIAL PRIMARY KEY,
     Marque VARCHAR,
     type VARCHAR,
