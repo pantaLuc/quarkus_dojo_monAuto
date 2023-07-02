@@ -21,4 +21,6 @@ public class VehiculeRepository implements PanacheRepository<Vehicule> {
         return find("serie" ,serie).firstResult();
     }
 
+    public List<Vehicule> findByEnergie(String energie){return find("energie" ,energie).stream().toList() ;} ;
+
 }
