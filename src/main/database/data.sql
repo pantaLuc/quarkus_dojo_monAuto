@@ -20,3 +20,5 @@ INSERT INTO vehicules(marque, type, energie, serie, NbPLACECAB, NbPlaceHCAB) VAL
                                                                                  ('Renault', 'Sedan', 'Petrol', '142857', 4, 4),
                                                                                  ('Fiat', 'Convertible', 'Gasoline', '716283', 2, 2),
                                                                                  ('Jaguar', 'Sedan', 'Diesel', '495867', 4, 5);
+
+

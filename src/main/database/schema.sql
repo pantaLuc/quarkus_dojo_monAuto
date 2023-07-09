@@ -8,3 +8,8 @@ CREATE TABLE vehicules (
                            NbPlaceHCAB INT
 );
 
+CREATE TABLE categories (
+                           idCategorie BIGSERIAL PRIMARY KEY ,
+                           nomCategorie VARCHAR
+);
+
