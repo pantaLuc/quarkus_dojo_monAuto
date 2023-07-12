@@ -35,5 +35,13 @@ public class PuissanceService {
         return puissance ;
     }
 
+    public Puissance getById(long id){
+        Puissance puissance=puissanceRepository.findById(id);
+        if(puissance==null){
+            throw new NotFoundException("La puissance n'existe pas");
+        }
+        return puissance ;
+    }
+
 
 }
