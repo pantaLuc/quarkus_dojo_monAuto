@@ -13,3 +13,8 @@ CREATE TABLE categories (
                            nomCategorie VARCHAR
 );
 
+CREATE TABLE puissances(
+    idPuis BIGSERIAL PRIMARY KEY  ,
+    puissance INT
+)
+
